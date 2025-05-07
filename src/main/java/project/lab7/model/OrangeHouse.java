@@ -1,0 +1,11 @@
+package project.lab7.model;
+
+import project.lab7.common.DirectionImgs;
+import static project.lab7.model.Element.getImage;
+
+public class OrangeHouse extends AbstractElement {
+    
+    public OrangeHouse() {
+        super(new DirectionImgs(getImage(1000, 0, 100, 150)));
+    }
+}
